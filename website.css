@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+}
+::-webkit-scrollbar{
+    width:0.5vh;
+}
+::-webkit-scrollbar-thumb{
+   background-color:rgb(14, 112, 177) ;
+}
+body{
+   background-color: black;
+   overflow-x: hidden;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+b{
+    font-weight:900;
+    color:rgb(14, 112, 177) ;
+}
+
+#navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.867);
+    border-bottom: 1px solid whitesmoke;
+    z-index: 10;
+    top:0
+}
+#logo{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top:-15px;
+    left: 10px;
+}
+#navbtn{
+    display: flex;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   align-items:center ;
+   justify-content: center;
+}
+.btn{
+padding:30px;
+font-weight: 800;
+font-size: 20px;
+transition: all 0.5s;
+}
+.btn:hover{
+color: rgb(5, 106, 173);
+text-decoration: overline;
+}
+#webmain{
+    height: 175vh;
+    width: 100%;
+    margin: 2%;
+    margin-top: 10vh;
+    position: relative;
+    padding: 1%;
+}
+#webpage{
+    position: absolute;
+    right: 50px;
+    height: 500px;
+    width: 650px;
+    top: 20vh;
+    border-radius: 40px;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+#lastline{
+    width: 95%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#footer{
+    background-color:rgba(255, 255, 255, 0.175);
+    border-top: 2px solid rgb(5, 106, 173);
+    height: 30vh;
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#part1{
+    width: 30%;
+   border-right:2.5px solid rgb(5, 106, 173);
+   text-align: center;
+
+}
+span{
+    margin-left:15%;
+}
+#footlogo{
+position: absolute;
+height: 150px;
+width: 150px;
+top: -30px;
+left: 10px;
+}
+#soclogo{
+    margin: 1%;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#soclogo img{
+height: 40px;
+width: 40px;
+margin:5%;
+}
+#part2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+#part2 a{
+    text-decoration: underline;
+    color:  rgb(5, 106, 173);
+}
+#part1 h4{
+    font-size: 20px;
+}
+#part2 h4{
+    font-size: 20px;
+}
